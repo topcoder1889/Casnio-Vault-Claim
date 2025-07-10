@@ -12,7 +12,7 @@ const ClaimButton: React.FC<ClaimButtonProps> = ({ onClick, disabled }) => {
       onClick={onClick}
       disabled={disabled}
       className={`
-        w-full py-6 px-10 rounded-2xl font-black text-xl tracking-wider transition-all duration-300 transform relative overflow-hidden
+        w-full py-10 px-10 rounded-2xl font-black text-xl tracking-wider transition-all duration-300 transform relative overflow-hidden
         ${disabled 
           ? 'bg-gradient-to-br from-gray-700 to-gray-900 text-gray-400 cursor-not-allowed border-2 border-gray-600 shadow-inner' 
           : 'bg-gradient-to-br from-yellow-400 via-yellow-500 to-yellow-600 hover:from-yellow-300 hover:via-yellow-400 hover:to-yellow-500 text-yellow-900 shadow-[0_0_40px_rgba(255,215,0,0.6)] hover:shadow-[0_0_60px_rgba(255,215,0,0.8)] hover:scale-105 border-2 border-yellow-300'
